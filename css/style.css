@@ -1,0 +1,80 @@
+/* Start Common Reset BootStrap CSS Here */
+
+:root {
+    --primary_font: font-family: 'Open Sans', sans-serif;
+    --Primary_color: #ffffff;
+    --secondary_color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+small,
+a,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+body,
+textarea {
+    font-family: var(--primary_font);
+}
+
+/* End Common Reset BootStrap CSS Here */
+
+
+
+/* Start Heading Section CSS Style Here */
+#header_section {
+    background-color: #02918b;
+
+}
+
+#header_section ul li a.nav-link {
+    color: var(--Primary_color);
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 25px;
+    padding: 10px 24.5px;
+    text-transform: uppercase;
+}
+
+/* End Heading Section CSS Style Here */
+
+
+/* Start Bannar Section CSS Style Here */
+
+#bannar_section {
+    height: 728px;
+    position: relative;
+    background-size: cover !important;
+
+}
+
+#bannar_section::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4));
+    z-index: 1;
+}
+
+/* End Bannar Section CSS Style Here */
